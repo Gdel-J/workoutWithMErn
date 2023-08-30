@@ -17,7 +17,6 @@ Welcome to WorkoutWithMErn ! This application uses  the MERN stack (MongoDB, Exp
   - [Questions](#questions)
   - [Credits](#credits)
   - [Contributing](#contributing)
-  - [Acknowledgments](#acknowledgments)
 
 
 ## Installation
@@ -48,7 +47,7 @@ Welcome to WorkoutWithMErn ! This application uses  the MERN stack (MongoDB, Exp
 
 https://github.com/Gdel-J/workoutWithMErn.git
 
-**link for our deployed application on heroku**:
+**link for the deployed application on heroku**:
 
 
 
@@ -63,17 +62,13 @@ https://github.com/Gdel-J/workoutWithMErn.git
 
 
 
-**You may see this home page**  
+**You may see this home page where you can add delete workouts, enjoy!!!**  
 
-![Screenshot 2023-01](https://github.com/Gdel-J/MERN-Book-Search-Engine-V8/assets/120201085/fba2dc03-4635-4011-9842-a44da91eab5d)
+![workoutWithMErn](https://github.com/Gdel-J/workoutWithMErn/assets/120201085/e5ebd341-765a-4685-8087-b0faf0686ea6)
 
-**After logged in you can search for a book** 
 
-![Screenshot 2023-02](https://github.com/Gdel-J/MERN-Book-Search-Engine-V8/assets/120201085/aa186d5a-9da3-4bfd-9fce-e36bd50b919c)
 
-**You have access to your library** 
 
-![Screenshot 2023-03](https://github.com/Gdel-J/MERN-Book-Search-Engine-V8/assets/120201085/f69d884c-e508-4538-a1e0-990778c2e8d6)
 
 ## Features
 
@@ -84,7 +79,7 @@ https://github.com/Gdel-J/workoutWithMErn.git
 
 ## License
 
-This project is licensed under the MIT license.
+none
 
 ## How to Contribute
 
@@ -104,16 +99,12 @@ If you have any questions about this repository, you might want to open an issue
 
 ## Credits
 
-This application has been made by Gérard Del Vecchio, with a starter code during the FSF UCF bootcamp program 2023.
+This application has been made by Gérard Del Vecchio, with the MERN stack conventions.
 
 ## Contributing
 
 Please contact me 
 
-## Acknowledgments
-
-- This project was inspired by the MERN stack and its vibrant community.
-- The project structure and README template were adapted from best practices and common conventions.
 
 
 
