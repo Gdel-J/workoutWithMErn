@@ -1,4 +1,4 @@
-import { createContext, useReducer } from 'react'
+import { createContext, useReducer, useEffect } from 'react'
 
 export const WorkoutsContext = createContext()
 
@@ -23,9 +23,23 @@ export const workoutsReducer = (state, action) => {
 
 export const WorkoutsContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(workoutsReducer, { 
-    workouts: null
+    workouts: []
   })
-  
+
+  useEffect(() => {
+    const fetchWorkouts = async () => {
+      try {
+        const response = await fetch('http://localhost:4000/api/workouts')
+        const workouts = await response.json()
+        dispatch({ type: 'SET_WORKOUTS', payload: workouts })
+      } catch (error) {
+        console.error('Failed to fetch workouts:', error)
+      }
+    }
+
+    fetchWorkouts()
+  }, [dispatch])
+
   return (
     <WorkoutsContext.Provider value={{ ...state, dispatch }}>
       { children }
